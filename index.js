@@ -6,8 +6,7 @@ const moment = require('moment');
 const db = new sqlite3.Database('./db/floorsheet.db', (err) => {
     if (err) {
         console.error(err.message);
-    }
-    console.log('Connected to the chinook database.');
+    } else console.log('Connected to the chinook database.');
 });
 const startDate = '10/12/2014';
 
