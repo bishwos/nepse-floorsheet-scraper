@@ -1,7 +1,8 @@
 # Nepse floorsheet scraper
 Scrapes floorsheet data from merolagani and creates a csv.
 Note: Database tables needs to be created manually right now.
-###TODO
+###Features
+- [x] Auto-resume
 - [ ] Auto create database tables
 - [ ] Create db folder if it not already exists
 - [ ] Add init tables if possible(don't know if file size limits of github)
